@@ -42,3 +42,19 @@ tests/                           Automated tests
 ## Current focus
 
 The first implementation branch focuses only on data preprocessing.
+
+## Data preprocessing
+
+Build fold-based preprocessing files from the seed dataset:
+
+```bash
+python scripts/preprocess_data.py seed-dataset
+```
+
+Preprocess a longer recording into overlapping 3-second windows:
+
+```bash
+python scripts/preprocess_data.py continuous-audio path/to/recording.wav preprocessed/recording_windows.pkl
+```
+
+See [`working_note.md`](working_note.md) for the reasoning behind the preprocessing choices.
