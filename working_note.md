@@ -343,7 +343,15 @@ That creates overlapping 3-second windows with 0.5-second spacing.
 
 ---
 
-## 11. Summary of choices
+## 11. Visuals for presentation slides
+
+I added simple slide visuals in `reports/preprocessing_visuals.md` and `reports/figures/`. They explain the preprocessing pipeline, the 3-second / 0.5-second sliding window choice, and the idea of cleaning raw window hits into events later.
+
+These are only for slides and explanation; they are not model code.
+
+---
+
+## 12. Summary of choices
 
 | Choice | Value | Why |
 |---|---:|---|

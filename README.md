@@ -58,3 +58,7 @@ python scripts/preprocess_data.py continuous-audio path/to/recording.wav preproc
 ```
 
 See [`working_note.md`](working_note.md) for the reasoning behind the preprocessing choices.
+
+## Slide visuals
+
+Preprocessing explanation visuals are available in [`reports/preprocessing_visuals.md`](reports/preprocessing_visuals.md).
