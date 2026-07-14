@@ -1,0 +1,29 @@
+# macOS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated data and model artifacts
+preprocessed/
+outputs/
+models/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Notebook checkpoints
+.ipynb_checkpoints/

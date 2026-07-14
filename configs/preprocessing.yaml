@@ -1,0 +1,13 @@
+dataset_dir: dataset
+output_dir: preprocessed
+sample_rate: 44100
+n_mels: 128
+image_width: 250
+classes:
+  dog: 0
+  cat: 1
+  cow: 2
+  rooster: 3
+  sheep: 4
+  others: 5
+folds: [1, 2, 3, 4, 5]
