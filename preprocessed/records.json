@@ -1,0 +1,1962 @@
+[
+  {
+    "path": "dataset/dog/1-100032-A-0.wav",
+    "filename": "1-100032-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-110389-A-0.wav",
+    "filename": "1-110389-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-30226-A-0.wav",
+    "filename": "1-30226-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-30344-A-0.wav",
+    "filename": "1-30344-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-32318-A-0.wav",
+    "filename": "1-32318-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-59513-A-0.wav",
+    "filename": "1-59513-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-85362-A-0.wav",
+    "filename": "1-85362-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/1-97392-A-0.wav",
+    "filename": "1-97392-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 1
+  },
+  {
+    "path": "dataset/dog/2-114280-A-0.wav",
+    "filename": "2-114280-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-114587-A-0.wav",
+    "filename": "2-114587-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-116400-A-0.wav",
+    "filename": "2-116400-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-117271-A-0.wav",
+    "filename": "2-117271-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-118072-A-0.wav",
+    "filename": "2-118072-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-118964-A-0.wav",
+    "filename": "2-118964-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-122104-A-0.wav",
+    "filename": "2-122104-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/2-122104-B-0.wav",
+    "filename": "2-122104-B-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 2
+  },
+  {
+    "path": "dataset/dog/3-136288-A-0.wav",
+    "filename": "3-136288-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-144028-A-0.wav",
+    "filename": "3-144028-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-155312-A-0.wav",
+    "filename": "3-155312-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-157695-A-0.wav",
+    "filename": "3-157695-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-163459-A-0.wav",
+    "filename": "3-163459-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-170015-A-0.wav",
+    "filename": "3-170015-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-180256-A-0.wav",
+    "filename": "3-180256-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/3-180977-A-0.wav",
+    "filename": "3-180977-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 3
+  },
+  {
+    "path": "dataset/dog/4-182395-A-0.wav",
+    "filename": "4-182395-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-183992-A-0.wav",
+    "filename": "4-183992-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-184575-A-0.wav",
+    "filename": "4-184575-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-191687-A-0.wav",
+    "filename": "4-191687-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-192236-A-0.wav",
+    "filename": "4-192236-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-194754-A-0.wav",
+    "filename": "4-194754-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-199261-A-0.wav",
+    "filename": "4-199261-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/4-207124-A-0.wav",
+    "filename": "4-207124-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 4
+  },
+  {
+    "path": "dataset/dog/5-203128-A-0.wav",
+    "filename": "5-203128-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-203128-B-0.wav",
+    "filename": "5-203128-B-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-208030-A-0.wav",
+    "filename": "5-208030-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-212454-A-0.wav",
+    "filename": "5-212454-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-213855-A-0.wav",
+    "filename": "5-213855-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-217158-A-0.wav",
+    "filename": "5-217158-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-231762-A-0.wav",
+    "filename": "5-231762-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/dog/5-9032-A-0.wav",
+    "filename": "5-9032-A-0.wav",
+    "label": "dog",
+    "label_index": 0,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/1-34094-A-5.wav",
+    "filename": "1-34094-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-34094-B-5.wav",
+    "filename": "1-34094-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-47819-A-5.wav",
+    "filename": "1-47819-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-47819-B-5.wav",
+    "filename": "1-47819-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-47819-C-5.wav",
+    "filename": "1-47819-C-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-56380-A-5.wav",
+    "filename": "1-56380-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-56380-B-5.wav",
+    "filename": "1-56380-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/1-79113-A-5.wav",
+    "filename": "1-79113-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cat/2-110010-A-5.wav",
+    "filename": "2-110010-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-110011-A-5.wav",
+    "filename": "2-110011-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-69131-A-5.wav",
+    "filename": "2-69131-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-69131-B-5.wav",
+    "filename": "2-69131-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-82274-A-5.wav",
+    "filename": "2-82274-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-82274-B-5.wav",
+    "filename": "2-82274-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-83934-A-5.wav",
+    "filename": "2-83934-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/2-83934-B-5.wav",
+    "filename": "2-83934-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cat/3-146964-A-5.wav",
+    "filename": "3-146964-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-146965-A-5.wav",
+    "filename": "3-146965-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-146972-A-5.wav",
+    "filename": "3-146972-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-95694-A-5.wav",
+    "filename": "3-95694-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-95695-A-5.wav",
+    "filename": "3-95695-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-95695-B-5.wav",
+    "filename": "3-95695-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-95697-A-5.wav",
+    "filename": "3-95697-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/3-95698-A-5.wav",
+    "filename": "3-95698-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cat/4-120160-A-5.wav",
+    "filename": "4-120160-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-133047-A-5.wav",
+    "filename": "4-133047-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-133047-B-5.wav",
+    "filename": "4-133047-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-133047-C-5.wav",
+    "filename": "4-133047-C-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-149940-A-5.wav",
+    "filename": "4-149940-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-149940-B-5.wav",
+    "filename": "4-149940-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-161303-A-5.wav",
+    "filename": "4-161303-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/4-161303-B-5.wav",
+    "filename": "4-161303-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cat/5-169983-A-5.wav",
+    "filename": "5-169983-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-172299-A-5.wav",
+    "filename": "5-172299-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-172639-A-5.wav",
+    "filename": "5-172639-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-177614-A-5.wav",
+    "filename": "5-177614-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-214759-A-5.wav",
+    "filename": "5-214759-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-214759-B-5.wav",
+    "filename": "5-214759-B-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-256452-A-5.wav",
+    "filename": "5-256452-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cat/5-259169-A-5.wav",
+    "filename": "5-259169-A-5.wav",
+    "label": "cat",
+    "label_index": 1,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/1-16568-A-3.wav",
+    "filename": "1-16568-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-202111-A-3.wav",
+    "filename": "1-202111-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-58277-A-3.wav",
+    "filename": "1-58277-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-69422-A-3.wav",
+    "filename": "1-69422-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-69641-A-3.wav",
+    "filename": "1-69641-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-77160-A-3.wav",
+    "filename": "1-77160-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-77241-A-3.wav",
+    "filename": "1-77241-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/1-81269-A-3.wav",
+    "filename": "1-81269-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 1
+  },
+  {
+    "path": "dataset/cow/2-103423-A-3.wav",
+    "filename": "2-103423-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-103424-A-3.wav",
+    "filename": "2-103424-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-103426-A-3.wav",
+    "filename": "2-103426-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-103427-A-3.wav",
+    "filename": "2-103427-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-103428-A-3.wav",
+    "filename": "2-103428-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-104877-A-3.wav",
+    "filename": "2-104877-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-117795-A-3.wav",
+    "filename": "2-117795-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/2-117795-B-3.wav",
+    "filename": "2-117795-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 2
+  },
+  {
+    "path": "dataset/cow/3-124376-A-3.wav",
+    "filename": "3-124376-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-124376-B-3.wav",
+    "filename": "3-124376-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-126358-A-3.wav",
+    "filename": "3-126358-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-126358-B-3.wav",
+    "filename": "3-126358-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-152039-A-3.wav",
+    "filename": "3-152039-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-152039-B-3.wav",
+    "filename": "3-152039-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-160993-A-3.wav",
+    "filename": "3-160993-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/3-163727-A-3.wav",
+    "filename": "3-163727-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 3
+  },
+  {
+    "path": "dataset/cow/4-174860-A-3.wav",
+    "filename": "4-174860-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-174860-B-3.wav",
+    "filename": "4-174860-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-181955-A-3.wav",
+    "filename": "4-181955-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-181955-B-3.wav",
+    "filename": "4-181955-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-181955-C-3.wav",
+    "filename": "4-181955-C-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-213915-A-3.wav",
+    "filename": "4-213915-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-213915-B-3.wav",
+    "filename": "4-213915-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/4-213915-C-3.wav",
+    "filename": "4-213915-C-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 4
+  },
+  {
+    "path": "dataset/cow/5-194899-A-3.wav",
+    "filename": "5-194899-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-194899-B-3.wav",
+    "filename": "5-194899-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-194899-C-3.wav",
+    "filename": "5-194899-C-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-194899-D-3.wav",
+    "filename": "5-194899-D-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-202795-A-3.wav",
+    "filename": "5-202795-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-242492-A-3.wav",
+    "filename": "5-242492-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-253085-A-3.wav",
+    "filename": "5-253085-A-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/cow/5-253085-B-3.wav",
+    "filename": "5-253085-B-3.wav",
+    "label": "cow",
+    "label_index": 2,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/1-26806-A-1.wav",
+    "filename": "1-26806-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-27724-A-1.wav",
+    "filename": "1-27724-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-34119-A-1.wav",
+    "filename": "1-34119-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-34119-B-1.wav",
+    "filename": "1-34119-B-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-39923-A-1.wav",
+    "filename": "1-39923-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-40730-A-1.wav",
+    "filename": "1-40730-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-43382-A-1.wav",
+    "filename": "1-43382-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/1-44831-A-1.wav",
+    "filename": "1-44831-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 1
+  },
+  {
+    "path": "dataset/rooster/2-100786-A-1.wav",
+    "filename": "2-100786-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-65750-A-1.wav",
+    "filename": "2-65750-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-71162-A-1.wav",
+    "filename": "2-71162-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-81270-A-1.wav",
+    "filename": "2-81270-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-95035-A-1.wav",
+    "filename": "2-95035-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-95258-A-1.wav",
+    "filename": "2-95258-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-95258-B-1.wav",
+    "filename": "2-95258-B-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/2-96460-A-1.wav",
+    "filename": "2-96460-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 2
+  },
+  {
+    "path": "dataset/rooster/3-107219-A-1.wav",
+    "filename": "3-107219-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-116135-A-1.wav",
+    "filename": "3-116135-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-134049-A-1.wav",
+    "filename": "3-134049-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-137152-A-1.wav",
+    "filename": "3-137152-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-145382-A-1.wav",
+    "filename": "3-145382-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-149189-A-1.wav",
+    "filename": "3-149189-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-154957-A-1.wav",
+    "filename": "3-154957-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/3-163288-A-1.wav",
+    "filename": "3-163288-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 3
+  },
+  {
+    "path": "dataset/rooster/4-164021-A-1.wav",
+    "filename": "4-164021-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-164064-A-1.wav",
+    "filename": "4-164064-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-164064-B-1.wav",
+    "filename": "4-164064-B-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-164064-C-1.wav",
+    "filename": "4-164064-C-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-164859-A-1.wav",
+    "filename": "4-164859-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-170078-A-1.wav",
+    "filename": "4-170078-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-183487-A-1.wav",
+    "filename": "4-183487-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/4-208021-A-1.wav",
+    "filename": "4-208021-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 4
+  },
+  {
+    "path": "dataset/rooster/5-194930-A-1.wav",
+    "filename": "5-194930-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-194930-B-1.wav",
+    "filename": "5-194930-B-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-200334-A-1.wav",
+    "filename": "5-200334-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-200334-B-1.wav",
+    "filename": "5-200334-B-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-200339-A-1.wav",
+    "filename": "5-200339-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-233160-A-1.wav",
+    "filename": "5-233160-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-234879-A-1.wav",
+    "filename": "5-234879-A-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/rooster/5-234879-B-1.wav",
+    "filename": "5-234879-B-1.wav",
+    "label": "rooster",
+    "label_index": 3,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/1-121951-A-8.wav",
+    "filename": "1-121951-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-196660-A-8.wav",
+    "filename": "1-196660-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-196660-B-8.wav",
+    "filename": "1-196660-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-49409-A-8.wav",
+    "filename": "1-49409-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-49409-B-8.wav",
+    "filename": "1-49409-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-57795-A-8.wav",
+    "filename": "1-57795-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-75190-A-8.wav",
+    "filename": "1-75190-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/1-88574-A-8.wav",
+    "filename": "1-88574-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 1
+  },
+  {
+    "path": "dataset/sheep/2-110614-A-8.wav",
+    "filename": "2-110614-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-110614-B-8.wav",
+    "filename": "2-110614-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-119161-A-8.wav",
+    "filename": "2-119161-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-119161-B-8.wav",
+    "filename": "2-119161-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-119161-C-8.wav",
+    "filename": "2-119161-C-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-182508-A-8.wav",
+    "filename": "2-182508-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-182508-B-8.wav",
+    "filename": "2-182508-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/2-196688-A-8.wav",
+    "filename": "2-196688-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 2
+  },
+  {
+    "path": "dataset/sheep/3-140199-A-8.wav",
+    "filename": "3-140199-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-140199-B-8.wav",
+    "filename": "3-140199-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-140199-C-8.wav",
+    "filename": "3-140199-C-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-140199-D-8.wav",
+    "filename": "3-140199-D-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-197408-A-8.wav",
+    "filename": "3-197408-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-197408-B-8.wav",
+    "filename": "3-197408-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-197408-C-8.wav",
+    "filename": "3-197408-C-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/3-20861-A-8.wav",
+    "filename": "3-20861-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 3
+  },
+  {
+    "path": "dataset/sheep/4-188703-A-8.wav",
+    "filename": "4-188703-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-188703-B-8.wav",
+    "filename": "4-188703-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-188703-C-8.wav",
+    "filename": "4-188703-C-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-188703-D-8.wav",
+    "filename": "4-188703-D-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-196671-A-8.wav",
+    "filename": "4-196671-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-196671-B-8.wav",
+    "filename": "4-196671-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-196672-A-8.wav",
+    "filename": "4-196672-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/4-250864-A-8.wav",
+    "filename": "4-250864-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 4
+  },
+  {
+    "path": "dataset/sheep/5-198891-A-8.wav",
+    "filename": "5-198891-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-198891-B-8.wav",
+    "filename": "5-198891-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-198891-C-8.wav",
+    "filename": "5-198891-C-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-198891-D-8.wav",
+    "filename": "5-198891-D-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-200329-A-8.wav",
+    "filename": "5-200329-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-200329-B-8.wav",
+    "filename": "5-200329-B-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-200329-C-8.wav",
+    "filename": "5-200329-C-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/sheep/5-61635-A-8.wav",
+    "filename": "5-61635-A-8.wav",
+    "label": "sheep",
+    "label_index": 4,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/1-13571-A-46.wav",
+    "filename": "1-13571-A-46.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-17295-A-29.wav",
+    "filename": "1-17295-A-29.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-208757-E-2.wav",
+    "filename": "1-208757-E-2.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-260640-A-2.wav",
+    "filename": "1-260640-A-2.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-28135-B-11.wav",
+    "filename": "1-28135-B-11.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-42139-A-38.wav",
+    "filename": "1-42139-A-38.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-46353-A-49.wav",
+    "filename": "1-46353-A-49.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-51170-A-18.wav",
+    "filename": "1-51170-A-18.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-51805-B-33.wav",
+    "filename": "1-51805-B-33.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-54084-A-42.wav",
+    "filename": "1-54084-A-42.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-57316-A-13.wav",
+    "filename": "1-57316-A-13.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/1-64398-B-41.wav",
+    "filename": "1-64398-B-41.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 1
+  },
+  {
+    "path": "dataset/others/2-102852-A-11.wav",
+    "filename": "2-102852-A-11.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-104105-A-19.wav",
+    "filename": "2-104105-A-19.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-108760-A-14.wav",
+    "filename": "2-108760-A-14.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-109231-C-9.wav",
+    "filename": "2-109231-C-9.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-123896-A-24.wav",
+    "filename": "2-123896-A-24.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-126756-A-29.wav",
+    "filename": "2-126756-A-29.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-139748-A-15.wav",
+    "filename": "2-139748-A-15.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-141681-B-36.wav",
+    "filename": "2-141681-B-36.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-155801-A-11.wav",
+    "filename": "2-155801-A-11.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-52001-A-28.wav",
+    "filename": "2-52001-A-28.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-56926-A-46.wav",
+    "filename": "2-56926-A-46.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-66637-B-20.wav",
+    "filename": "2-66637-B-20.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-76408-D-22.wav",
+    "filename": "2-76408-D-22.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-77945-A-41.wav",
+    "filename": "2-77945-A-41.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-82538-A-21.wav",
+    "filename": "2-82538-A-21.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-83688-A-34.wav",
+    "filename": "2-83688-A-34.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/2-92978-A-29.wav",
+    "filename": "2-92978-A-29.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 2
+  },
+  {
+    "path": "dataset/others/3-100024-A-27.wav",
+    "filename": "3-100024-A-27.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-103401-A-33.wav",
+    "filename": "3-103401-A-33.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-107123-A-26.wav",
+    "filename": "3-107123-A-26.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-108677-A-18.wav",
+    "filename": "3-108677-A-18.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-111102-A-46.wav",
+    "filename": "3-111102-A-46.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-124925-A-9.wav",
+    "filename": "3-124925-A-9.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-126113-A-26.wav",
+    "filename": "3-126113-A-26.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-132340-A-37.wav",
+    "filename": "3-132340-A-37.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-141240-B-44.wav",
+    "filename": "3-141240-B-44.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-142005-A-10.wav",
+    "filename": "3-142005-A-10.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-142604-A-24.wav",
+    "filename": "3-142604-A-24.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-144827-B-11.wav",
+    "filename": "3-144827-B-11.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-146186-A-44.wav",
+    "filename": "3-146186-A-44.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-151557-A-28.wav",
+    "filename": "3-151557-A-28.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-153444-A-32.wav",
+    "filename": "3-153444-A-32.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-155659-A-34.wav",
+    "filename": "3-155659-A-34.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-163607-A-13.wav",
+    "filename": "3-163607-A-13.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-166125-A-23.wav",
+    "filename": "3-166125-A-23.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-166324-A-15.wav",
+    "filename": "3-166324-A-15.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-188726-A-35.wav",
+    "filename": "3-188726-A-35.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-197435-A-22.wav",
+    "filename": "3-197435-A-22.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-203377-A-39.wav",
+    "filename": "3-203377-A-39.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-87936-B-46.wav",
+    "filename": "3-87936-B-46.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/3-97909-A-49.wav",
+    "filename": "3-97909-A-49.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 3
+  },
+  {
+    "path": "dataset/others/4-107117-A-33.wav",
+    "filename": "4-107117-A-33.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-119720-A-18.wav",
+    "filename": "4-119720-A-18.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-128659-A-33.wav",
+    "filename": "4-128659-A-33.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-145081-A-9.wav",
+    "filename": "4-145081-A-9.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-172377-A-17.wav",
+    "filename": "4-172377-A-17.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-179836-A-34.wav",
+    "filename": "4-179836-A-34.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-181286-A-10.wav",
+    "filename": "4-181286-A-10.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-185575-B-20.wav",
+    "filename": "4-185575-B-20.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-189836-A-22.wav",
+    "filename": "4-189836-A-22.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-204119-A-39.wav",
+    "filename": "4-204119-A-39.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-204618-A-11.wav",
+    "filename": "4-204618-A-11.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-205526-B-23.wav",
+    "filename": "4-205526-B-23.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-215635-A-34.wav",
+    "filename": "4-215635-A-34.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/4-251959-A-47.wav",
+    "filename": "4-251959-A-47.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 4
+  },
+  {
+    "path": "dataset/others/5-160551-A-42.wav",
+    "filename": "5-160551-A-42.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-160614-F-48.wav",
+    "filename": "5-160614-F-48.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-187201-A-4.wav",
+    "filename": "5-187201-A-4.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-198411-A-20.wav",
+    "filename": "5-198411-A-20.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-199284-B-45.wav",
+    "filename": "5-199284-B-45.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-207781-A-17.wav",
+    "filename": "5-207781-A-17.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-215172-A-13.wav",
+    "filename": "5-215172-A-13.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-218196-B-27.wav",
+    "filename": "5-218196-B-27.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-237315-A-31.wav",
+    "filename": "5-237315-A-31.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-242490-A-14.wav",
+    "filename": "5-242490-A-14.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-242932-A-26.wav",
+    "filename": "5-242932-A-26.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-243773-B-44.wav",
+    "filename": "5-243773-B-44.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  },
+  {
+    "path": "dataset/others/5-260875-A-35.wav",
+    "filename": "5-260875-A-35.wav",
+    "label": "others",
+    "label_index": 5,
+    "fold": 5
+  }
+]
