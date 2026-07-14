@@ -4,9 +4,9 @@ import pytest
 from farm_audio_event_detection.preprocessing.audio_preprocessing import (
     CLASS_TO_INDEX,
     build_records,
-    extract_spectrogram,
     iter_audio_windows,
 )
+from farm_audio_event_detection.visualization.spectrogram import extract_spectrogram
 
 
 def test_build_records_scans_dataset():
