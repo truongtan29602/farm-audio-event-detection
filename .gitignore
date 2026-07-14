@@ -16,10 +16,8 @@ venv/
 env/
 
 # Generated data and model artifacts
-preprocessed/
 outputs/
 models/
-*.pkl
 *.joblib
 *.pt
 *.pth
