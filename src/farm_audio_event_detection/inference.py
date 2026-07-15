@@ -66,40 +66,66 @@ class FarmAudioDetector:
         
         with torch.no_grad():
             logits = self.model(X_tensor)
-            probs = torch.softmax(logits, dim=1).cpu().numpy()
+            probs = torch.sigmoid(logits).cpu().numpy()
             
-        # 4. Post-process to merge consecutive events
+        # 4. Post-process to merge consecutive events (Multi-label, with gap filling)
         events = []
-        current_event = None
+        max_gap_seconds = 1.0
+        min_duration_seconds = 0.5
         
-        for i, (prob, window) in enumerate(zip(probs, windows)):
-            pred_idx = np.argmax(prob)
-            max_prob = prob[pred_idx]
-            label = self.index_to_class[pred_idx]
+        for class_idx in range(len(self.index_to_class)):
+            label = self.index_to_class[class_idx]
+            if label == "others":
+                continue
+                
+            class_probs = probs[:, class_idx]
             
-            # If the network predicts a non-background class with high enough confidence
-            if label != "others" and max_prob >= threshold:
-                if current_event is None or current_event["label"] != label:
-                    if current_event is not None:
-                        events.append(current_event)
-                    current_event = {
-                        "label": label,
-                        "start": window.start_seconds,
-                        "end": window.end_seconds,
-                        "probs": [max_prob]
-                    }
-                else:
-                    # Extend current event
-                    current_event["end"] = window.end_seconds
-                    current_event["probs"].append(max_prob)
-            else:
-                if current_event is not None:
-                    events.append(current_event)
-                    current_event = None
+            active_windows = []
+            for prob, window in zip(class_probs, windows):
+                if prob >= threshold:
+                    # Center-timestamp mapping:
+                    # Assign the prediction to the 0.5s block at the center of the 3-second window
+                    # to achieve finer temporal resolution and avoid the 3-second smearing effect.
+                    center = window.start_seconds + (window.end_seconds - window.start_seconds) / 2.0
+                    start_mapped = max(0.0, center - 0.25)
+                    end_mapped = center + 0.25
+                    active_windows.append((start_mapped, end_mapped, prob))
                     
-        if current_event is not None:
-            events.append(current_event)
+            if not active_windows:
+                continue
+                
+            merged_events = []
+            current_start, current_end, current_probs = active_windows[0][0], active_windows[0][1], [active_windows[0][2]]
             
+            for start, end, prob in active_windows[1:]:
+                # If gap is within max_gap_seconds, merge them
+                if start - current_end <= max_gap_seconds:
+                    current_end = max(current_end, end)
+                    current_probs.append(prob)
+                else:
+                    merged_events.append({
+                        "label": label,
+                        "start": current_start,
+                        "end": current_end,
+                        "probs": current_probs
+                    })
+                    current_start, current_end, current_probs = start, end, [prob]
+                    
+            merged_events.append({
+                "label": label,
+                "start": current_start,
+                "end": current_end,
+                "probs": current_probs
+            })
+            
+            # Apply minimum duration threshold
+            for event in merged_events:
+                if event["end"] - event["start"] >= min_duration_seconds:
+                    events.append(event)
+                    
+        # Sort events by start time
+        events.sort(key=lambda x: x["start"])
+        
         # Convert to DetectedEvent objects
         detected_events = []
         for e in events:

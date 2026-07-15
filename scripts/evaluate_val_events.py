@@ -24,17 +24,82 @@ def concatenate_audio_files(metadata_list, sample_rate=44100):
     """
     Concatenate a list of audio files into a single continuous numpy array.
     Adds a small 0.5s silence between files to separate events.
+    Returns the continuous audio, sample rate, and ground truth events.
     """
     audio_segments = []
     silence = np.zeros(int(sample_rate * 0.5), dtype=np.float32)
+    gt_events = []
+    current_time = 0.0
     
     for item in metadata_list:
         path = PROJECT_ROOT / item["path"]
         audio, sr = load_audio(path, sample_rate=sample_rate)
+        duration = len(audio) / sample_rate
         audio_segments.append(audio)
-        audio_segments.append(silence)
         
-    return np.concatenate(audio_segments), sample_rate
+        if item["label"] != "others":
+            gt_events.append({
+                "label": item["label"],
+                "start": current_time,
+                "end": current_time + duration
+            })
+            
+        current_time += duration
+        audio_segments.append(silence)
+        current_time += 0.5
+        
+    return np.concatenate(audio_segments), sample_rate, gt_events
+
+def evaluate_events_with_iou(detected_events, gt_events, iou_threshold=0.3):
+    """
+    Evaluates detected events against ground truth events using Intersection over Union (IoU).
+    A detected event is a True Positive if it overlaps with a ground truth event of the same label
+    with an IoU >= iou_threshold, and the ground truth event hasn't been matched yet.
+    """
+    tp = 0
+    fp = 0
+    matched_gt = set()
+    
+    for det in detected_events:
+        matched = False
+        best_iou = 0.0
+        best_gt_idx = -1
+        
+        for i, gt in enumerate(gt_events):
+            if i in matched_gt:
+                continue
+                
+            if det.animal == gt["label"]:
+                intersection = max(0.0, min(det.event_end, gt["end"]) - max(det.event_start, gt["start"]))
+                union = max(det.event_end, gt["end"]) - min(det.event_start, gt["start"])
+                iou = intersection / union if union > 0 else 0.0
+                
+                if iou >= iou_threshold and iou > best_iou:
+                    best_iou = iou
+                    best_gt_idx = i
+                    
+        if best_iou >= iou_threshold:
+            tp += 1
+            matched_gt.add(best_gt_idx)
+            matched = True
+            
+        if not matched:
+            fp += 1
+            
+    fn = len(gt_events) - len(matched_gt)
+    
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+    
+    return {
+        "tp": tp,
+        "fp": fp,
+        "fn": fn,
+        "precision": precision,
+        "recall": recall,
+        "f1": f1
+    }
 
 def main():
     parser = argparse.ArgumentParser(description="Evaluate k-fold validation sets as continuous audio streams.")
@@ -87,16 +152,33 @@ def main():
                 subset_metadata.append(item)
                 
         print(f"Creating continuous audio from {len(subset_metadata)} validation clips...")
-        continuous_audio, sr = concatenate_audio_files(subset_metadata, sample_rate=44100)
+        continuous_audio, sr, gt_events = concatenate_audio_files(subset_metadata, sample_rate=44100)
         
         print("Running event detection...")
         detector = FarmAudioDetector(checkpoint_path, device=device)
         events = detector.detect_events(continuous_audio, sr, threshold=args.threshold)
         
+        print("Evaluating detections...")
+        eval_metrics = evaluate_events_with_iou(events, gt_events, iou_threshold=0.3)
+        print(f"Metrics - F1: {eval_metrics['f1']:.3f}, Precision: {eval_metrics['precision']:.3f}, Recall: {eval_metrics['recall']:.3f}")
+        
         json_out = outputs_dir / f"fold_{fold}_events_report.json"
         plot_out = outputs_dir / f"fold_{fold}_events_visualization.png"
         
-        export_events_to_json(events, json_out)
+        report_data = {
+            "metrics": eval_metrics,
+            "detected_events": [
+                {
+                    "animal": e.animal,
+                    "event_start": e.event_start,
+                    "event_end": e.event_end,
+                    "confidence": e.confidence
+                } for e in events
+            ],
+            "gt_events": gt_events
+        }
+        with open(json_out, "w") as f:
+            json.dump(report_data, f, indent=2)
         print(f"Exported JSON report to {json_out}")
         
         plot_audio_events(
@@ -104,7 +186,7 @@ def main():
             sr, 
             events, 
             plot_out, 
-            title=f"Fold {fold} - Continuous Validation Set Evaluation"
+            title=f"Fold {fold} - Eval (F1: {eval_metrics['f1']:.2f})"
         )
         print(f"Exported visualization to {plot_out}")
 

@@ -1,28 +1,3 @@
-"""K-fold cross-validation training script for farm audio event detection.
-
-Usage
------
-    python scripts/train_kfold.py
-
-Options (all have sensible defaults):
-    --preprocessed-dir   Directory containing fold_N.pkl files  [preprocessed]
-    --output-dir         Where to save models and plots          [outputs/kfold]
-    --epochs             Training epochs per fold                [30]
-    --batch-size         Mini-batch size                         [32]
-    --lr                 Initial learning rate                   [1e-3]
-    --weight-decay       AdamW weight decay                      [1e-4]
-    --dropout            Dropout probability in classifier head  [0.4]
-    --seed               Random seed for reproducibility         [42]
-    --device             torch device string (cpu / cuda / mps)  [auto]
-    --num-workers        DataLoader workers                      [0]
-
-Outputs (saved to --output-dir)
----------------------------------
-    fold_1_best.pt  ...  fold_5_best.pt   -- best-val-acc checkpoint per fold
-    fold_1_history.png  ...               -- loss & accuracy curves per fold
-    summary.json                          -- all fold metrics + mean/std
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -60,7 +35,8 @@ class SpectrogramDataset(Dataset):
     def __init__(self, X: np.ndarray, y: np.ndarray, augment: bool = False) -> None:
         # X arrives as (N, 128, 250, 3); PyTorch Conv2d expects (N, C, H, W)
         self.X = torch.from_numpy(X).float().permute(0, 3, 1, 2)  # → (N, 3, 128, 250)
-        self.y = torch.from_numpy(y).long()
+        y_long = torch.from_numpy(y).long()
+        self.y = torch.nn.functional.one_hot(y_long, num_classes=6).float()
         self.augment = augment
 
     def __len__(self) -> int:
@@ -124,7 +100,6 @@ def _run_epoch(
     device: torch.device,
     train: bool,
 ) -> tuple[float, float]:
-    """Run one full epoch; return (avg_loss, accuracy)."""
 
     model.train(train)
     total_loss = 0.0
@@ -145,8 +120,8 @@ def _run_epoch(
                 optimizer.step()
 
             total_loss += loss.item() * len(y_batch)
-            preds = logits.argmax(dim=1)
-            correct += (preds == y_batch).sum().item()
+            preds = (logits > 0.0).float()
+            correct += (preds == y_batch).float().mean(dim=1).sum().item()
             total += len(y_batch)
 
     return total_loss / total, correct / total
@@ -266,7 +241,7 @@ def train_fold(
 
     # -- Model, loss, optimizer, scheduler --
     model = build_model(num_classes=6, dropout=dropout).to(device)
-    criterion = nn.CrossEntropyLoss(label_smoothing=0.05)
+    criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs, eta_min=1e-5)
 
@@ -340,6 +315,23 @@ def train_fold(
 
 
 # ---------------------------------------------------------------------------
+# Logging Utilities
+# ---------------------------------------------------------------------------
+
+class Tee:
+    def __init__(self, *files):
+        self.files = files
+    
+    def write(self, obj):
+        for f in self.files:
+            f.write(obj)
+            f.flush()
+            
+    def flush(self):
+        for f in self.files:
+            f.flush()
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -376,6 +368,10 @@ def main() -> None:
     preprocessed_dir = Path(args.preprocessed_dir)
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    log_file_path = PROJECT_ROOT / "log.txt"
+    log_file = log_file_path.open("w")
+    sys.stdout = Tee(sys.stdout, log_file)
 
     all_metrics: list[dict] = []
 
