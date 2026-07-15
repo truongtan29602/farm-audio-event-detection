@@ -1,37 +1,7 @@
-"""CNN model for farm audio event classification.
-
-Architecture
-------------
-Input  : (B, 3, 128, 250)   -- 3-channel Log-Mel spectrogram
-Output : (B, 6)             -- logits for 6 classes
-
-Design choices
---------------
-* Four convolutional blocks with BatchNorm and ReLU, each followed by 2x2
-  max-pooling.  The number of filters doubles each block (32 → 64 → 128 → 256)
-  to capture increasingly abstract patterns.
-* Global Average Pooling replaces a large fully-connected layer, keeping the
-  parameter count low and reducing overfitting on this ~200-sample dataset.
-* A two-layer classifier head (256 → 128 → 6) with dropout(0.4) gives the
-  model enough capacity while discouraging co-adaptation of features.
-
-Classes (label_index order)
-----------------------------
-    0  dog
-    1  cat
-    2  cow
-    3  rooster
-    4  sheep
-    5  others
-"""
-
 import torch
 import torch.nn as nn
 
-
 class ConvBlock(nn.Module):
-    """Conv2d → BatchNorm2d → ReLU → MaxPool2d."""
-
     def __init__(self, in_channels: int, out_channels: int, pool: bool = True) -> None:
         super().__init__()
         layers: list[nn.Module] = [
@@ -48,16 +18,6 @@ class ConvBlock(nn.Module):
 
 
 class FarmAudioCNN(nn.Module):
-    """Small CNN for 3-channel Log-Mel spectrogram classification.
-
-    Parameters
-    ----------
-    num_classes : int
-        Number of output classes (default 6).
-    dropout : float
-        Dropout probability in the classifier head (default 0.4).
-    """
-
     def __init__(self, num_classes: int = 6, dropout: float = 0.4) -> None:
         super().__init__()
 
@@ -86,5 +46,4 @@ class FarmAudioCNN(nn.Module):
 
 
 def build_model(num_classes: int = 6, dropout: float = 0.4) -> FarmAudioCNN:
-    """Construct and return a new FarmAudioCNN instance."""
     return FarmAudioCNN(num_classes=num_classes, dropout=dropout)
